@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Lista para guardar la conversación
+
 conversacion = []
 
 def preguntar_ollama(texto):
